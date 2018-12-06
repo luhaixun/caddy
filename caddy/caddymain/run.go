@@ -38,6 +38,8 @@ import (
 
 	_ "github.com/mholt/caddy/caddyhttp" // plug in the HTTP server type
 	// This is where other plugins get plugged in (imported)
+	_ "github.com/pedronasser/caddy-search"
+	_ "github.com/abiosoft/caddy-git"
 )
 
 func init() {

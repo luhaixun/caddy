@@ -624,6 +624,7 @@ var directives = []string{
 	"forwardproxy", // github.com/caddyserver/forwardproxy
 	"basicauth",
 	"redir",
+	"search",       // github.com/pedronasser/caddy-search
 	"status",
 	"cors",   // github.com/captncraig/cors/caddy
 	"nobots", // github.com/Xumeiquer/nobots
